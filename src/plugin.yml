@@ -1,0 +1,16 @@
+name: CutsceneEditor
+main: me.bomb.cutsceneeditor.CutsceneEditor
+version: 0.9.1
+author: Bomb
+description: This plugin record cutscenes.
+depend: [Cutscene]
+api-version: 1.13
+commands:
+  recordscene:
+    description: Start or stop record cutscene
+    permission: cutscene.recordscene
+    usage: /<command>
+permissions:
+  cutscene.recordscene:
+    description: Allow record cutscene
+    default: op
